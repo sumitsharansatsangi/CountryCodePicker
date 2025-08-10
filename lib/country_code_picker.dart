@@ -249,10 +249,8 @@ class CountryCodePickerState extends State<CountryCodePicker> {
                         (widget.alignLeft
                             ? const EdgeInsets.only(right: 16.0, left: 8.0)
                             : const EdgeInsets.only(right: 16.0)),
-                    child: Image.asset(
-                      selectedItem!.flagUri!,
-                      package: 'country_code_picker',
-                      width: widget.flagWidth,
+                    child: Text(
+                      selectedItem!.flag??"",
                     ),
                   ),
                 ),

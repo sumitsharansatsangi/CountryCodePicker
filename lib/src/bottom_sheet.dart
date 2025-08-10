@@ -151,10 +151,8 @@ class _SelectionBottomSheetState extends State<SelectionBottomSheet> {
                 clipBehavior: widget.flagDecoration == null
                     ? Clip.none
                     : Clip.hardEdge,
-                child: Image.asset(
-                  e.flagUri!,
-                  package: 'country_code_picker',
-                  width: widget.flagWidth,
+                child: Text(
+                  e.flag?? ""
                 ),
               ),
             ),

@@ -13,7 +13,7 @@ class CountryCode {
   String? name;
 
   /// the flag of the country
-  final String? flagUri;
+  final String? flag;
 
   /// the country code (IT,AF..)
   final String? code;
@@ -21,7 +21,7 @@ class CountryCode {
   /// the dial code (+39,+93..)
   final String? dialCode;
 
-  CountryCode({this.name, this.flagUri, this.code, this.dialCode});
+  CountryCode({this.name, this.flag, this.code, this.dialCode});
 
   @Deprecated('Use `fromCountryCode` instead.')
   factory CountryCode.fromCode(String isoCode) {
@@ -81,7 +81,7 @@ class CountryCode {
       name: removeDiacritics(json['name']),
       code: json['code'],
       dialCode: json['dial_code'],
-      flagUri: json['code']
+      flag: json['code']
           .toLowerCase()
           .codeUnits
           .map((e) => String.fromCharCode((base + e).toInt()))
