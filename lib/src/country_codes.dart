@@ -7,7 +7,7 @@ const List<Map<String, String>> codes = [
     "name": "American Samoa",
     "code": "AS",
     "iso3Code": "ASM",
-    "dial_code": "+1684"
+    "dial_code": "+1684",
   },
   {"name": "Andorra", "code": "AD", "iso3Code": "AND", "dial_code": "+376"},
   {"name": "Angola", "code": "AO", "iso3Code": "AGO", "dial_code": "+244"},
@@ -17,7 +17,7 @@ const List<Map<String, String>> codes = [
     "name": "Antigua and Barbuda",
     "code": "AG",
     "iso3Code": "ATG",
-    "dial_code": "+1268"
+    "dial_code": "+1268",
   },
   {"name": "Argentina", "code": "AR", "iso3Code": "ARG", "dial_code": "+54"},
   {"name": "Հայաստան", "code": "AM", "iso3Code": "ARM", "dial_code": "+374"},
@@ -40,7 +40,7 @@ const List<Map<String, String>> codes = [
     "name": "Bosna i Hercegovina",
     "code": "BA",
     "iso3Code": "BIH",
-    "dial_code": "+387"
+    "dial_code": "+387",
   },
   {"name": "Botswana", "code": "BW", "iso3Code": "BWA", "dial_code": "+267"},
   {"name": "Bouvetøya", "code": "BV", "iso3Code": "BVT", "dial_code": "+47"},
@@ -49,20 +49,20 @@ const List<Map<String, String>> codes = [
     "name": "British Indian Ocean Territory",
     "code": "IO",
     "iso3Code": "IOT",
-    "dial_code": "+246"
+    "dial_code": "+246",
   },
   {
     "name": "Negara Brunei Darussalam",
     "code": "BN",
     "iso3Code": "BRN",
-    "dial_code": "+673"
+    "dial_code": "+673",
   },
   {"name": "България", "code": "BG", "iso3Code": "BGR", "dial_code": "+359"},
   {
     "name": "Burkina Faso",
     "code": "BF",
     "iso3Code": "BFA",
-    "dial_code": "+226"
+    "dial_code": "+226",
   },
   {"name": "Burundi", "code": "BI", "iso3Code": "BDI", "dial_code": "+257"},
   {"name": "Cambodia", "code": "KH", "iso3Code": "KHM", "dial_code": "+855"},
@@ -73,13 +73,13 @@ const List<Map<String, String>> codes = [
     "name": "Cayman Islands",
     "code": "KY",
     "iso3Code": "CYM",
-    "dial_code": "+1345"
+    "dial_code": "+1345",
   },
   {
     "name": "Ködörösêse tî Bêafrîka",
     "code": "CF",
     "iso3Code": "CAF",
-    "dial_code": "+236"
+    "dial_code": "+236",
   },
   {"name": "Tchad", "code": "TD", "iso3Code": "TCD", "dial_code": "+235"},
   {"name": "Chile", "code": "CL", "iso3Code": "CHL", "dial_code": "+56"},
@@ -88,13 +88,13 @@ const List<Map<String, String>> codes = [
     "name": "Christmas Island",
     "code": "CX",
     "iso3Code": "CXR",
-    "dial_code": "+61"
+    "dial_code": "+61",
   },
   {
     "name": "Cocos (Keeling) Islands",
     "code": "CC",
     "iso3Code": "CCK",
-    "dial_code": "+61"
+    "dial_code": "+61",
   },
   {"name": "Colombia", "code": "CO", "iso3Code": "COL", "dial_code": "+57"},
   {"name": "Komori", "code": "KM", "iso3Code": "COM", "dial_code": "+269"},
@@ -102,26 +102,26 @@ const List<Map<String, String>> codes = [
     "name": "République du Congo",
     "code": "CG",
     "iso3Code": "COG",
-    "dial_code": "+242"
+    "dial_code": "+242",
   },
   {
     "name": "République démocratique du Congo",
     "code": "CD",
     "iso3Code": "COD",
-    "dial_code": "+243"
+    "dial_code": "+243",
   },
   {
     "name": "Cook Islands",
     "code": "CK",
     "iso3Code": "COK",
-    "dial_code": "+682"
+    "dial_code": "+682",
   },
   {"name": "Costa Rica", "code": "CR", "iso3Code": "CRI", "dial_code": "+506"},
   {
     "name": "Côte d'Ivoire",
     "code": "CI",
     "iso3Code": "CIV",
-    "dial_code": "+225"
+    "dial_code": "+225",
   },
   {"name": "Hrvatska", "code": "HR", "iso3Code": "HRV", "dial_code": "+385"},
   {"name": "Cuba", "code": "CU", "iso3Code": "CUB", "dial_code": "+53"},
@@ -130,7 +130,7 @@ const List<Map<String, String>> codes = [
     "name": "Česká republika",
     "code": "CZ",
     "iso3Code": "CZE",
-    "dial_code": "+420"
+    "dial_code": "+420",
   },
   {"name": "Danmark", "code": "DK", "iso3Code": "DNK", "dial_code": "+45"},
   {"name": "Djibouti", "code": "DJ", "iso3Code": "DJI", "dial_code": "+253"},
@@ -139,7 +139,7 @@ const List<Map<String, String>> codes = [
     "name": "República Dominicana",
     "code": "DO",
     "iso3Code": "DOM",
-    "dial_code": "+1"
+    "dial_code": "+1",
   },
   {"name": "Ecuador", "code": "EC", "iso3Code": "ECU", "dial_code": "+593"},
   {"name": "مصر‎", "code": "EG", "iso3Code": "EGY", "dial_code": "+20"},
@@ -148,7 +148,7 @@ const List<Map<String, String>> codes = [
     "name": "Guinea Ecuatorial",
     "code": "GQ",
     "iso3Code": "GNQ",
-    "dial_code": "+240"
+    "dial_code": "+240",
   },
   {"name": "ኤርትራ", "code": "ER", "iso3Code": "ERI", "dial_code": "+291"},
   {"name": "Eesti", "code": "EE", "iso3Code": "EST", "dial_code": "+372"},
@@ -157,7 +157,7 @@ const List<Map<String, String>> codes = [
     "name": "Falkland Islands",
     "code": "FK",
     "iso3Code": "FLK",
-    "dial_code": "+500"
+    "dial_code": "+500",
   },
   {"name": "Føroyar", "code": "FO", "iso3Code": "FRO", "dial_code": "+298"},
   {"name": "Fiji", "code": "FJ", "iso3Code": "FJI", "dial_code": "+679"},
@@ -167,19 +167,19 @@ const List<Map<String, String>> codes = [
     "name": "Guyane française",
     "code": "GF",
     "iso3Code": "GUF",
-    "dial_code": "+594"
+    "dial_code": "+594",
   },
   {
     "name": "Polynésie française",
     "code": "PF",
     "iso3Code": "PYF",
-    "dial_code": "+689"
+    "dial_code": "+689",
   },
   {
     "name": "Territoire des Terres australes et antarctiques fr",
     "code": "TF",
     "iso3Code": "ATF",
-    "dial_code": "+262"
+    "dial_code": "+262",
   },
   {"name": "Gabon", "code": "GA", "iso3Code": "GAB", "dial_code": "+241"},
   {"name": "Gambia", "code": "GM", "iso3Code": "GMB", "dial_code": "+220"},
@@ -192,7 +192,7 @@ const List<Map<String, String>> codes = [
     "name": "Kalaallit Nunaat",
     "code": "GL",
     "iso3Code": "GRL",
-    "dial_code": "+299"
+    "dial_code": "+299",
   },
   {"name": "Grenada", "code": "GD", "iso3Code": "GRD", "dial_code": "+1473"},
   {"name": "Guadeloupe", "code": "GP", "iso3Code": "GLP", "dial_code": "+590"},
@@ -204,7 +204,7 @@ const List<Map<String, String>> codes = [
     "name": "Guiné-Bissau",
     "code": "GW",
     "iso3Code": "GNB",
-    "dial_code": "+245"
+    "dial_code": "+245",
   },
   {"name": "Guyana", "code": "GY", "iso3Code": "GUY", "dial_code": "+592"},
   {"name": "Haïti", "code": "HT", "iso3Code": "HTI", "dial_code": "+509"},
@@ -212,7 +212,7 @@ const List<Map<String, String>> codes = [
     "name": "Heard Island and McDonald Islands",
     "code": "HM",
     "iso3Code": "HMD",
-    "dial_code": "+0"
+    "dial_code": "+0",
   },
   {"name": "Vaticano", "code": "VA", "iso3Code": "VAT", "dial_code": "+379"},
   {"name": "Honduras", "code": "HN", "iso3Code": "HND", "dial_code": "+504"},
@@ -240,7 +240,7 @@ const List<Map<String, String>> codes = [
     "name": "Republika e Kosovës",
     "code": "XK",
     "iso3Code": "KOS",
-    "dial_code": "+383"
+    "dial_code": "+383",
   },
   {"name": "الكويت", "code": "KW", "iso3Code": "KWT", "dial_code": "+965"},
   {"name": "Кыргызстан", "code": "KG", "iso3Code": "KGZ", "dial_code": "+996"},
@@ -254,7 +254,7 @@ const List<Map<String, String>> codes = [
     "name": "Liechtenstein",
     "code": "LI",
     "iso3Code": "LIE",
-    "dial_code": "+423"
+    "dial_code": "+423",
   },
   {"name": "Lietuva", "code": "LT", "iso3Code": "LTU", "dial_code": "+370"},
   {"name": "Luxembourg", "code": "LU", "iso3Code": "LUX", "dial_code": "+352"},
@@ -264,7 +264,7 @@ const List<Map<String, String>> codes = [
     "name": "Madagasikara",
     "code": "MG",
     "iso3Code": "MDG",
-    "dial_code": "+261"
+    "dial_code": "+261",
   },
   {"name": "Malawi", "code": "MW", "iso3Code": "MWI", "dial_code": "+265"},
   {"name": "Malaysia", "code": "MY", "iso3Code": "MYS", "dial_code": "+60"},
@@ -294,13 +294,13 @@ const List<Map<String, String>> codes = [
     "name": "Netherlands Antilles",
     "code": "AN",
     "iso3Code": "AN",
-    "dial_code": "+599"
+    "dial_code": "+599",
   },
   {
     "name": "Nouvelle-Calédonie",
     "code": "NC",
     "iso3Code": "NCL",
-    "dial_code": "+687"
+    "dial_code": "+687",
   },
   {"name": "New Zealand", "code": "NZ", "iso3Code": "NZL", "dial_code": "+64"},
   {"name": "Nicaragua", "code": "NI", "iso3Code": "NIC", "dial_code": "+505"},
@@ -311,13 +311,13 @@ const List<Map<String, String>> codes = [
     "name": "Norfolk Island",
     "code": "NF",
     "iso3Code": "NFK",
-    "dial_code": "+672"
+    "dial_code": "+672",
   },
   {
     "name": "Northern Mariana Islands",
     "code": "MP",
     "iso3Code": "MNP",
-    "dial_code": "+1670"
+    "dial_code": "+1670",
   },
   {"name": "Norge", "code": "NO", "iso3Code": "NOR", "dial_code": "+47"},
   {"name": "عمان", "code": "OM", "iso3Code": "OMN", "dial_code": "+968"},
@@ -329,7 +329,7 @@ const List<Map<String, String>> codes = [
     "name": "Papua Niugini",
     "code": "PG",
     "iso3Code": "PNG",
-    "dial_code": "+675"
+    "dial_code": "+675",
   },
   {"name": "Paraguay", "code": "PY", "iso3Code": "PRY", "dial_code": "+595"},
   {"name": "Perú", "code": "PE", "iso3Code": "PER", "dial_code": "+51"},
@@ -338,7 +338,7 @@ const List<Map<String, String>> codes = [
     "name": "Pitcairn Islands",
     "code": "PN",
     "iso3Code": "PCN",
-    "dial_code": "+64"
+    "dial_code": "+64",
   },
   {"name": "Polska", "code": "PL", "iso3Code": "POL", "dial_code": "+48"},
   {"name": "Portugal", "code": "PT", "iso3Code": "PRT", "dial_code": "+351"},
@@ -346,13 +346,13 @@ const List<Map<String, String>> codes = [
     "name": "Puerto Rico",
     "code": "PR",
     "iso3Code": "PRI",
-    "dial_code": "+1939"
+    "dial_code": "+1939",
   },
   {
     "name": "Puerto Rico",
     "code": "PR",
     "iso3Code": "PRI",
-    "dial_code": "+1787"
+    "dial_code": "+1787",
   },
   {"name": "قطر", "code": "QA", "iso3Code": "QAT", "dial_code": "+974"},
   {"name": "România", "code": "RO", "iso3Code": "ROU", "dial_code": "+40"},
@@ -363,43 +363,43 @@ const List<Map<String, String>> codes = [
     "name": "Saint-Barthélemy",
     "code": "BL",
     "iso3Code": "BLM",
-    "dial_code": "+590"
+    "dial_code": "+590",
   },
   {
     "name": "Saint Helena",
     "code": "SH",
     "iso3Code": "SHN",
-    "dial_code": "+290"
+    "dial_code": "+290",
   },
   {
     "name": "Saint Kitts and Nevis",
     "code": "KN",
     "iso3Code": "KNA",
-    "dial_code": "+1869"
+    "dial_code": "+1869",
   },
   {
     "name": "Saint Lucia",
     "code": "LC",
     "iso3Code": "LCA",
-    "dial_code": "+1758"
+    "dial_code": "+1758",
   },
   {
     "name": "Saint-Martin",
     "code": "MF",
     "iso3Code": "MAF",
-    "dial_code": "+590"
+    "dial_code": "+590",
   },
   {
     "name": "Saint-Pierre-et-Miquelon",
     "code": "PM",
     "iso3Code": "SPM",
-    "dial_code": "+508"
+    "dial_code": "+508",
   },
   {
     "name": "Saint Vincent and the Grenadines",
     "code": "VC",
     "iso3Code": "VCT",
-    "dial_code": "+1784"
+    "dial_code": "+1784",
   },
   {"name": "Samoa", "code": "WS", "iso3Code": "WSM", "dial_code": "+685"},
   {"name": "San Marino", "code": "SM", "iso3Code": "SMR", "dial_code": "+378"},
@@ -407,13 +407,13 @@ const List<Map<String, String>> codes = [
     "name": "São Tomé e Príncipe",
     "code": "ST",
     "iso3Code": "STP",
-    "dial_code": "+239"
+    "dial_code": "+239",
   },
   {
     "name": "العربية السعودية",
     "code": "SA",
     "iso3Code": "SAU",
-    "dial_code": "+966"
+    "dial_code": "+966",
   },
   {"name": "Sénégal", "code": "SN", "iso3Code": "SEN", "dial_code": "+221"},
   {"name": "Србија", "code": "RS", "iso3Code": "SRB", "dial_code": "+381"},
@@ -422,7 +422,7 @@ const List<Map<String, String>> codes = [
     "name": "Sierra Leone",
     "code": "SL",
     "iso3Code": "SLE",
-    "dial_code": "+232"
+    "dial_code": "+232",
   },
   {"name": "Singapore", "code": "SG", "iso3Code": "SGP", "dial_code": "+65"},
   {"name": "Slovensko", "code": "SK", "iso3Code": "SVK", "dial_code": "+421"},
@@ -431,7 +431,7 @@ const List<Map<String, String>> codes = [
     "name": "Solomon Islands",
     "code": "SB",
     "iso3Code": "SLB",
-    "dial_code": "+677"
+    "dial_code": "+677",
   },
   {"name": "Soomaaliya", "code": "SO", "iso3Code": "SOM", "dial_code": "+252"},
   {"name": "South Africa", "code": "ZA", "iso3Code": "ZAF", "dial_code": "+27"},
@@ -440,7 +440,7 @@ const List<Map<String, String>> codes = [
     "name": "South Georgia",
     "code": "GS",
     "iso3Code": "SGS",
-    "dial_code": "+500"
+    "dial_code": "+500",
   },
   {"name": "España", "code": "ES", "iso3Code": "ESP", "dial_code": "+34"},
   {"name": "Sri Lanka", "code": "LK", "iso3Code": "LKA", "dial_code": "+94"},
@@ -450,7 +450,7 @@ const List<Map<String, String>> codes = [
     "name": "Svalbard og Jan Mayen",
     "code": "SJ",
     "iso3Code": "SJM",
-    "dial_code": "+47"
+    "dial_code": "+47",
   },
   {"name": "Swaziland", "code": "SZ", "iso3Code": "SWZ", "dial_code": "+268"},
   {"name": "Sverige", "code": "SE", "iso3Code": "SWE", "dial_code": "+46"},
@@ -468,7 +468,7 @@ const List<Map<String, String>> codes = [
     "name": "Trinidad and Tobago",
     "code": "TT",
     "iso3Code": "TTO",
-    "dial_code": "+1868"
+    "dial_code": "+1868",
   },
   {"name": "تونس", "code": "TN", "iso3Code": "TUN", "dial_code": "+216"},
   {"name": "Türkiye", "code": "TR", "iso3Code": "TUR", "dial_code": "+90"},
@@ -476,13 +476,13 @@ const List<Map<String, String>> codes = [
     "name": "Türkmenistan",
     "code": "TM",
     "iso3Code": "TKM",
-    "dial_code": "+993"
+    "dial_code": "+993",
   },
   {
     "name": "Turks and Caicos Islands",
     "code": "TC",
     "iso3Code": "TCA",
-    "dial_code": "+1649"
+    "dial_code": "+1649",
   },
   {"name": "Tuvalu", "code": "TV", "iso3Code": "TUV", "dial_code": "+688"},
   {"name": "Uganda", "code": "UG", "iso3Code": "UGA", "dial_code": "+256"},
@@ -491,13 +491,13 @@ const List<Map<String, String>> codes = [
     "name": "دولة الإمارات العربية المتحدة",
     "code": "AE",
     "iso3Code": "ARE",
-    "dial_code": "+971"
+    "dial_code": "+971",
   },
   {
     "name": "United Kingdom",
     "code": "GB",
     "iso3Code": "GBR",
-    "dial_code": "+44"
+    "dial_code": "+44",
   },
   {"name": "United States", "code": "US", "iso3Code": "USA", "dial_code": "+1"},
   {"name": "Uruguay", "code": "UY", "iso3Code": "URY", "dial_code": "+598"},
@@ -509,21 +509,21 @@ const List<Map<String, String>> codes = [
     "name": "British Virgin Islands",
     "code": "VG",
     "iso3Code": "VGB",
-    "dial_code": "+1284"
+    "dial_code": "+1284",
   },
   {
     "name": "United States Virgin Islands",
     "code": "VI",
     "iso3Code": "VIR",
-    "dial_code": "+1340"
+    "dial_code": "+1340",
   },
   {
     "name": "Wallis et Futuna",
     "code": "WF",
     "iso3Code": "WLF",
-    "dial_code": "+681"
+    "dial_code": "+681",
   },
   {"name": "اليَمَن", "code": "YE", "iso3Code": "YEM", "dial_code": "+967"},
   {"name": "Zambia", "code": "ZM", "iso3Code": "ZMB", "dial_code": "+260"},
-  {"name": "Zimbabwe", "code": "ZW", "iso3Code": "ZWE", "dial_code": "+263"}
+  {"name": "Zimbabwe", "code": "ZW", "iso3Code": "ZWE", "dial_code": "+263"},
 ];

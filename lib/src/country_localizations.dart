@@ -15,17 +15,23 @@ class CountryLocalizations {
     );
   }
 
-  static const LocalizationsDelegate<CountryLocalizations> delegate = _CountryLocalizationsDelegate();
+  static const LocalizationsDelegate<CountryLocalizations> delegate =
+      _CountryLocalizationsDelegate();
 
-  static LocalizationsDelegate<CountryLocalizations> getDelegate({bool enableLocalization = true}) {
-    return _CountryLocalizationsDelegate(enableLocalization: enableLocalization);
+  static LocalizationsDelegate<CountryLocalizations> getDelegate({
+    bool enableLocalization = true,
+  }) {
+    return _CountryLocalizationsDelegate(
+      enableLocalization: enableLocalization,
+    );
   }
 
   late Map<String, String> _localizedStrings;
 
   Future<bool> load() async {
-    String jsonString =
-        await rootBundle.loadString('packages/country_code_picker/src/i18n/${locale.languageCode}.json');
+    String jsonString = await rootBundle.loadString(
+      'packages/country_code_picker/src/i18n/${locale.languageCode}.json',
+    );
     Map<String, dynamic> jsonMap = json.decode(jsonString);
 
     _localizedStrings = jsonMap.map((key, value) {
@@ -40,7 +46,8 @@ class CountryLocalizations {
   }
 }
 
-class _CountryLocalizationsDelegate extends LocalizationsDelegate<CountryLocalizations> {
+class _CountryLocalizationsDelegate
+    extends LocalizationsDelegate<CountryLocalizations> {
   final bool enableLocalization;
 
   const _CountryLocalizationsDelegate({this.enableLocalization = true});
