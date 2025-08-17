@@ -75,22 +75,64 @@ class CountryCode {
     return this..name = nam == null ? name : removeDiacritics(nam);
   }
 
+  // factory CountryCode.fromJson(Map<String, dynamic> json) {
+  //   final base = 127397;
+  //   return CountryCode(
+  //     name: removeDiacritics(json['name']),
+  //     code: json['code'],
+  //     dialCode: json['dial_code'],
+  //     flag: json['code']
+  //         .toLowerCase()
+  //         .codeUnits
+  //         .map((e) => String.fromCharCode((base + e).toInt()))
+  //         .toList()
+  //         .reduce((value, element) => value + element)
+  //         .toString(),
+  //     // 'flags/${json['code'].toLowerCase()}.png'
+  //   );
+  // }
+
+  // factory CountryCode.fromJson(Map<String, dynamic> json) {
+  //   final base = 127397;
+  //   // debugPrint(json.toString());
+  //   // debugPrint(json['code']);
+  //   final code = json['code'];
+  //   // .toUpperCase(); // must be uppercase
+  //   final flag = String.fromCharCodes(code.codeUnits.map((e) => base + e));
+
+  //   return CountryCode(
+  //     name: removeDiacritics(json['name']),
+  //     code: code,
+  //     dialCode: json['dial_code'],
+  //     flag: flag,
+  //   );
+  // }
+
   factory CountryCode.fromJson(Map<String, dynamic> json) {
-    final base = 127397;
+    final int base = 127397; // base for regional indicator symbols
+    final rawCode = (json['code'] ?? '').toString();
+    final code = rawCode.toUpperCase();
+
+    String flag;
+    if (code.length == 2 && RegExp(r'^[A-Z]{2}$').hasMatch(code)) {
+      // Ensure the mapped iterable is Iterable<int> by explicitly typing the map.
+      final Iterable<int> codePoints = code.codeUnits.map<int>(
+        (int e) => base + e,
+      );
+      flag = String.fromCharCodes(codePoints);
+    } else {
+      // fallback (either empty string or a path to a PNG asset)
+      flag = ''; // or 'flags/${rawCode.toLowerCase()}.png'
+    }
+
     return CountryCode(
-      name: removeDiacritics(json['name']),
-      code: json['code'],
-      dialCode: json['dial_code'],
-      flag: json['code']
-          .toLowerCase()
-          .codeUnits
-          .map((e) => String.fromCharCode((base + e).toInt()))
-          .toList()
-          .reduce((value, element) => value + element)
-          .toString(),
-      // 'flags/${json['code'].toLowerCase()}.png'
+      name: removeDiacritics(json['name']?.toString() ?? ''),
+      code: code,
+      dialCode: json['dial_code']?.toString() ?? '',
+      flag: flag,
     );
   }
+
 
   @override
   String toString() => "$dialCode";
